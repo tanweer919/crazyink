@@ -228,6 +228,9 @@ header nav li {
 	margin-top: 100px;
 	animation: 1s slidefade 1s forwards;
 }
+.hero-content-area h1 {
+	color: rgb(173,255,47);
+}
 
 @keyframes slidefade {
 	100% {
