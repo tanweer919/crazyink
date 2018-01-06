@@ -1,5 +1,6 @@
 body {
     padding-top: 90px;
+    background: #DDD;
 }
 .panel-login {
 	border-color: #ccc;
@@ -96,4 +97,35 @@ body {
 	color: #fff;
 	background-color: #1CA347;
 	border-color: #1CA347;
+}
+.flash {
+	margin-top: 10px;
+}
+.navbar-default {
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover {
+	background: #ddd;
+	color: black;
+}
+.btn-facebook {
+	background: #4aa1f3;
+    border-radius: 0;
+    color: #fff;
+    width: 100px;
+}
+.btn-facebook:link, .btn-facebook:visited {
+    color: #fff;
+    text-decoration: none;
+    background: #4aa1f3;
+}
+.btn-facebook:active, .btn-facebook:hover {
+    background: #4aa1f3;
+    color:#fff;
 }
