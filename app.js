@@ -16,7 +16,7 @@ const route = require("./controllers/users");
 const User = require("./models/user");
 const secret = require("./helpers/secret");
 
-
+//Use global promise for mongoose
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://localhost/crazyink", {useMongoClient: true});
 const app = setupExpress();
